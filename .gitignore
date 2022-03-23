@@ -1,4 +1,3 @@
-.dbt/
 target/
 dbt_packages/
 logs/
