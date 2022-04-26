@@ -1,0 +1,37 @@
+version: 2
+sources:
+    -
+        name: padak_data
+        database: KEBOOLA_33
+        schema: WORKSPACE_410407633
+        tables:
+            -
+                name: visits_hits_product
+                quoting:
+                    database: true
+                    schema: true
+                    identifier: true
+            -
+                name: visits
+                quoting:
+                    database: true
+                    schema: true
+                    identifier: true
+            -
+                name: visits_customDimensions
+                quoting:
+                    database: true
+                    schema: true
+                    identifier: true
+            -
+                name: visits_hits
+                quoting:
+                    database: true
+                    schema: true
+                    identifier: true
+            -
+                name: visits_hits_promotion
+                quoting:
+                    database: true
+                    schema: true
+                    identifier: true
