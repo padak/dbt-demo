@@ -2,8 +2,6 @@ version: 2
 sources:
     -
         name: padak_data
-        database: KEBOOLA_33
-        schema: WORKSPACE_410407633
         tables:
             -
                 name: visits_hits_product
